@@ -51,8 +51,8 @@ while True:
     inFight = not player.is_idle()
     while inFight:
 
-        if player.enchant('meteor-strike', 'epic') or player.find_spell('meteor-strike-enchanted'):
-            player.cast_spell('meteor-strike-enchanted')
+        if player.enchant('tempest', 'colossal') or player.find_spell('tempest_enchanted'):
+            player.cast_spell('tempest-enchanted')
         else:
             player.pass_turn()
 
